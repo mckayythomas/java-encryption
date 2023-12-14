@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class MainApp {
 
     public static void main(String[] args) {
-        // Hardcoded file path for simplicity
         String filePath = "example.txt";
 
         try {
             // Create or load your secret key
-            // For simplicity, we'll generate a new key here
             FileEncrypterDecrypter fileEncrypterDecrypter = new FileEncrypterDecrypter(KeyGeneratorUtils.generateAESKey(), "AES/CBC/PKCS5Padding");
 
             // Read content from file

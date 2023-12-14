@@ -1,1 +1,7 @@
-this is my text to encrypt
+this is my text to encrypt.
+
+This text will be encrypted too.
+
+This text will be encrypted too.
+
+This text will be encrypted too.

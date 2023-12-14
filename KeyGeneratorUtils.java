@@ -6,7 +6,7 @@ public class KeyGeneratorUtils {
 
     public static SecretKey generateAESKey() throws NoSuchAlgorithmException {
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");
-        keyGen.init(256); // You can adjust the key size as needed
+        keyGen.init(256);
         return keyGen.generateKey();
     }
 }
